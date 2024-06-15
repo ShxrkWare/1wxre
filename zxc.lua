@@ -10,6 +10,9 @@ if keychecked == true then
     for i = 1, 15 do
     print("dxtware v.1 LOADED SUCCESS 100%")
     end
+if keychecked == false then
+        game.Players.LocalPlayer.Kick("MUA SCRIPT INBOX dxtware !!!")
+    end
 
 local FillColor = Color3.fromRGB(255, 255,255)
 local DepthMode = "AlwaysOnTop"
