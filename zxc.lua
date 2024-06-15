@@ -7,6 +7,20 @@ if getgenv().key == "FREE-WHITELISTED" then
 end
 
 if keychecked == true then
+    
+function dellight()
+--Full Bright
+game.Lighting.Atmosphere:Destroy()
+game.Lighting.Sky:Destroy()
+game.Lighting.Bloom:Destroy()
+game.Lighting.BrightnessContrast:Destroy()
+game.Lighting.ColorCorrection:Destroy()
+game.Lighting.SunRays:Destroy()
+game.Lighting.IsNight:Destroy()
+end
+dellight()
+end
+    
     for i = 1, 15 do
     print("dxtware v.1 LOADED SUCCESS 100%")
     end
@@ -152,16 +166,5 @@ end)
         checkForHumanoidRootParts()
         wait(1)
     end
-function dellight()
---Full Bright
-game.Lighting.Atmosphere:Destroy()
-game.Lighting.Sky:Destroy()
-game.Lighting.Bloom:Destroy()
-game.Lighting.BrightnessContrast:Destroy()
-game.Lighting.ColorCorrection:Destroy()
-game.Lighting.SunRays:Destroy()
-game.Lighting.IsNight:Destroy()
-end
-dellight()
-end
+
 
